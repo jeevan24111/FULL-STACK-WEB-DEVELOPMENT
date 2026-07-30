@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form></form>
+    <fieldset>
+        <legend>personal info</legend>
+
+        <label for="name">NAME:</label>
+        <input type="text" id="name" placeholder="Enter your name" required><br><br>
+        <label for="number">CONTACT:</label>
+        <input type="number" id="number" placeholder="Enter your contact" required><br><br>
+
+        <label for="age">AGE:</label>
+        <input type="number" id="age"min=0 max=100 placeholder="ENTER YOUR AGE" required><br><br>
+        <pre>GENDER:</pre>
+        <label for="Male">MALE</label>
+        <input type="radio" id="male" name="gender" value="MALE">
+         <label for="Male">FEMALE</label>
+        <input type="radio" id="female"name="gender value="FEMALE">
+         <label for="Male">OTHERS</label>
+        <input type="radio" id="others"name="gender" value="OTHERS"><br><br>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>INFORMATION</legend>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob"  required><br><br>
+
+        <textarea name="info" id="inof" rows="4" cols="30">ENTER YOUR MESSAGE</textarea>
+    </fieldset>
+
+    <button>Submit</button>
+    
+</body>
+</html>

@@ -1,0 +1,139 @@
+# ============================================
+# PRODUCTION .gitignore - Front-End Projects
+# ============================================
+
+# Dependencies (NEVER commit - can be rebuilt)
+node_modules/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+jspm_packages/
+
+# Build outputs (commit only if required by deployment)
+dist/
+build/
+out/
+.next/
+.nuxt/
+.nitro/
+.output/
+.stencil/
+.vuepress/dist/
+.docusaurus/
+
+# Environment & Secrets (CRITICAL - NEVER commit)
+.env
+.env.*
+!.env.example
+!.env.ci
+!.env.template
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.cer
+.secrets/
+credentials.json
+service-account.json
+*.secret
+*.private
+
+# Source Maps (SECURITY RISK - exposes production code)
+*.map
+*.js.map
+*.css.map
+*.ts.map
+
+# Logs & Temp Files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Cache Directories (can get huge)
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.turbo/
+.rollup.cache/
+.swc/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+*.lcov
+__snapshots__/
+__image_snapshots__/
+screenshots/
+videos/
+
+# OS Files (cross-platform annoying)
+.DS_Store
+Thumbs.db
+desktop.ini
+*.~
+*.swp
+*.swo
+
+# IDE & Editor Files (team standard)
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+*.code-search
+.project
+.classpath
+.settings/
+
+# Misc Generated Files
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.gz
+*.br
+
+# PWA / Service Workers
+sw.js
+workbox-*.js
+*.worker.js.map
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# CI/CD Platform Artifacts
+.vercel/
+.netlify/
+.firebase/
+.github/copilot/
+.terraform/
+
+# Storybook
+
+# ============================================
+# KEEP THESE FILES (they should be committed):
+# ============================================
+# !.env.example
+# !vite.config.ts / webpack.config.js / etc.
+# !README.md
+# !Dockerfile (if used)# !package.json
+# !package-lock.json / yarn.lock / pnpm-lock.yaml
+# !tsconfig.json
+storybook-static/
+*.stories.*.js.map
+*.stories.*.css.map
+
