@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(244, 93, 93); width: 100%; margin: 0;padding: 10px;">
+    <h1 style="text-align: center;">health Details Form</h1>
+    <form action="">
+    <fieldset style="display: flex;justify-content:space-evenly; align-items: center;flex-direction: column;" >
+        <!-- style="display: flex;justify-content:space-evenly; align-items: center;flex-direction: column;" -->
+        <legend>personal information</legend>
+        <label for="username">User Name</label>
+        <input type="text" placeholder="Enter Your USERNAME",name="username" required ><br>
+        <label for="dob">DOB</label>
+        <input type="date" placeholder="Ent",name="username" required ><br>
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="" disabled selected>Select you gender</option>
+            <option value="Male">MALE</option>
+            <option value="FEMALE">FEMALE</option>
+        </select><br>
+         <label for="phone">Phone Number :</label>
+         <input type="number" name="phone" ><br>
+    </fieldset>
+    <fieldset style="display: flex;justify-content:space-evenly; align-items: center;flex-direction: column;">
+        <legend>Medical History</legend>
+         <label for="blood">BlOOD group:</label>
+         <select name="blood" id="blood">
+            <option value="" disabled selected>select your blood group</option>
+            <option value="A+">A+</option>
+            <option value="B+">B+</option>
+            <option value="O+">O+</option>
+            <option value="AB+">AB+</option>
+         </select>
+         <h2>do you wear glasses or contact lens?</h2>
+          <label for="yes">yes</label>
+            <input type="radio" name="yes" value="yes">
+          <label for="no">No</label>
+            <input type="radio" name="no" value="no">
+
+            <h3>Pre-existing condition</h3>
+            <textarea name="ares" id="" cols="100" rows="5" placeholder="list any pre-existing medical conditions"></textarea>
+
+        <h3>Allergies</h3>
+        <input type="checkbox" name="a1">
+        <label for="a2">pollens</label><br>
+        <input type="checkbox" name="a1">
+        <label for="a1">peanuts</label><br>
+        <input type="checkbox" name="a1">
+        <label for="a1">latex</label><br>
+        <input type="checkbox" name="a1">
+        <label for="a1">none</label><br>
+
+         <h3>Current medication</h3>
+            <textarea name="ares" id="" cols="100" rows="5" placeholder="list any current medications"></textarea>
+
+    </fieldset>
+    <fieldset style="display: flex;justify-content:space-evenly; align-items: center;flex-direction: column;" >
+        <legend>emergency contact</legend>
+         <label for="username">Emergency contact Name</label>
+        <input type="text" placeholder="Enter Your USERNAME",name="username" required ><br>
+       <label for="phone"> EMERGENCY Phone Number :</label>
+         <input type="number" name="phone" ><br>
+    </fieldset>
+    </fieldset>
+
+     <!-- <button type="submit" style="border: none; background-color: red; text-align: center;display: flex;align-items: center;  justify-content: center;">SUBMIT</button> -->
+      <div style="display: flex;justify-content: center;align-items: center; font-size: 10px;background-color: red;">
+        <button type="submit">Submit</button>
+      </div>
+      </form>
+</body>
+</html>
