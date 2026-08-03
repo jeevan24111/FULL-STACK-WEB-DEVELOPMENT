@@ -1,0 +1,4 @@
+ /* adding color to all using external css css */
+*{
+    background-color: rgb(86, 66, 39);
+}
