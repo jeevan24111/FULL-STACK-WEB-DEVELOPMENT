@@ -45,6 +45,7 @@ article {
 }
 
 .responsive-article h3 {
+    
     font-size: 2em; /* Sets the font size for h3 in Responsive article */
     color: #8A2BE2; /* Sets a blue violet color for h3 */
 }
