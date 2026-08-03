@@ -1,0 +1,44 @@
+
+/*                   cSS fonts */
+
+.rgb4{
+    /* CSS FONTS */
+     height: 500px;
+    width: 70%;
+      text-align: center;
+   font-size: 50px;
+   background-color: antiquewhite;
+
+  
+}
+.rgb4>h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p1{
+    font-size: 35px;
+    background-color: blue;
+}
+#p2{
+    font-size:5rem;
+    background-color: rgb(126, 173, 148);
+}
+#p3{
+    font-size: 5em;
+    background-color: rgb(167, 186, 103);
+}
+#p4{
+    font-size: 100%;
+    background-color: rgb(160, 160, 205);
+}
+#p5{
+    font-size: 20vh;
+    background-color: rgb(143, 87, 145);
+}
+#p6{
+    font-size: 20vw;
+    background-color: rgb(155, 173, 106);
+}
+
+
+   
+

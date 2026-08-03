@@ -1,0 +1,109 @@
+                            /* css color */
+
+*{
+    /* named colors */
+    background-color: aquamarine;
+    background-color: blanchedalmond;
+    background-color:rgb(231, 78, 28);
+    /* latest updated color will be applied */
+    
+}
+.rgb{
+    /* rgb ->red,green,blue(max-255 for each) */
+    height: 200px;
+    width: 50%;
+    /* background-color: rgb(red, green, blue); */
+    background-color: rgb(255,32, 122);
+    background-color: rgb(123,23, 122);
+    text-align: center;
+   font-size: 50px;
+}
+.rgb1{
+    /* heaxdecimal colors */
+     height: 200px;
+    width: 70%;
+    /* background-color: #000; */
+    background-color: #a13c3c;
+    background-color: #d61818;
+    background-color: #79c78a;
+      text-align: center;
+   font-size: 50px;
+}
+.rgb2{
+    /* HSL  colors */
+     height: 200px;
+    width: 70%;
+      text-align: center;
+   font-size: 50px;
+   /* max value 0- 360 for hue,0-100% for saturation,0-100% for lightness */
+   /* background-color: hsl(hue, saturation, lightness); */
+   background-color: hsl(122,2%,50%);
+
+   /* HSLA */
+   /* background-color: hsla(hue, saturation, lightness, alpha); 
+   alpha->semi transparency*/
+   background-color: hsla(12, 12%, 12%, 0.01);  
+}
+
+               /* background-color */
+
+/* background-color is applied behind of text  
+    background-size:cover,to cover entire element
+    background-repeat:no repeat;prevent the image from repeating
+*/
+
+.rgb3{
+    /* background colors,image */
+     height: 500px;
+    width: 70%;
+      text-align: center;
+   font-size: 50px;
+   background-image: url(./Code_0fwcuAyBp5.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}   
+
+
+/*                   cSS fonts */
+
+.rgb4{
+    /* CSS FONTS */
+     height: 500px;
+    width: 70%;
+      text-align: center;
+   font-size: 50px;
+   background-color: antiquewhite;
+
+  
+}
+.rgb4>h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p1{
+    font-size: 35px;
+    background-color: blue;
+}
+#p2{
+    font-size:5rem;
+    background-color: rgb(126, 173, 148);
+}
+#p3{
+    font-size: 5em;
+    background-color: rgb(167, 186, 103);
+}
+#p4{
+    font-size: 100%;
+    background-color: rgb(160, 160, 205);
+}
+#p5{
+    font-size: 20vh;
+    background-color: rgb(143, 87, 145);
+}
+#p6{
+    font-size: 20vw;
+    background-color: rgb(155, 173, 106);
+}
+
+
+   
+
