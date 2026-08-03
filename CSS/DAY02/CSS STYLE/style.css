@@ -1,0 +1,43 @@
+p{
+    background-color: cadetblue;
+    font-size: 40px;
+    font-style: bold;
+    font-style:oblique;
+      font-style: italic;
+      word-spacing:30px;
+      letter-spacing:5px;
+      text-transform: capitalize;
+      font-stretch: expanded;
+}
+
+/* Element tag */
+/* 
+#first_id{
+    background-color: pink ;
+} */
+
+/* Id use */
+
+/* .first_class{
+    background-color: blueviolet;
+} */
+
+
+/* class */
+
+/* h1[draggable="true"]{
+    background-color: coral;
+} */
+/* Attribute selector */
+/* 
+body h1{
+    background-color: black;
+} */
+
+/* Descendent */
+/* 
+body > h1{
+    background-color: gray;
+} */
+
+/* child */
