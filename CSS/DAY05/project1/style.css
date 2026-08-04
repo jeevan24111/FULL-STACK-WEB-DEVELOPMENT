@@ -1,0 +1,10 @@
+.flag{
+    height:500px;
+    width:500px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top:5%;
+
+}
