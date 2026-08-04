@@ -1,0 +1,49 @@
+div{
+    /* css border */
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    border:10px solid red;
+    text-align: center;
+    display: inline-block;
+    
+
+
+}
+#padding{
+    /* css padding*/
+    background-color: rgb(121, 183, 106);
+    height: 500px;
+    width: 500px;
+    border:10px solid rgb(228, 222, 33);
+    /* text-align: center; */
+  /* padding-left: 30px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 30px,60px,50px,20px;
+}
+
+#margin{
+    /* css margin*/
+    background-color: rgb(121, 183, 106);
+    height: 500px;
+    width: 500px;
+    border:10px solid rgb(228, 222, 33);
+    /* text-align: center; */
+  /* padding-left: 30px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px; */
+   padding: 30px,60px,50px,20px;
+   margin-left: 500px;
+   margin-right: 200px;
+   margin-top: 200px;
+   margin-bottom: 200px;
+
+
+   display: inline-block;  
+}
+#margin:hover{
+    transform: scale(2);
+}
