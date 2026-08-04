@@ -1,0 +1,76 @@
+
+body{
+    /* position: relative; */
+    
+}
+
+.bx{
+    height: 300px;
+  width: 360px;
+  background-color: blueviolet;
+  position: sticky;
+left:20px;
+z-index: 2;
+}
+.box{
+    height:1500px;
+    width: 1200px;
+    background-color: rgb(178, 135, 135);
+    margin-left: 50px;
+    margin-top: 100px;
+    position: relative;
+}
+.box2{
+    height:1200px;
+    width:940px;
+    background-color: rgb(244, 70, 70);
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+    /* overflow:auto; */
+    position: relative;
+}
+.size{
+    margin-top: 30px;
+  height: 100px;
+  width: 160px;
+  display: inline-block;
+}
+#red{
+    background-color: red;
+    /* position: relative; */
+z-index: 3;
+    margin-left: 50px;
+}
+#yellow{
+    background-color: yellow;
+    /* position: relative; */
+    z-index: 4;
+
+    /* position:relative; */
+    /* position: absolute; */
+    /* left:100px;
+    top:400px;
+    right: 40px; */
+}
+#blue{
+    background-color: blue;
+    /* position: relative; */
+    left: 30px;
+    right: 50px;
+    z-index:1;
+    /* position: absolute;
+    left:23px;
+    top:2px;
+    bottom:2px; */
+    /* position: fixed; */
+}
+#green{
+    background-color: green;
+    /* position: relative; */
+    /* works only positioned elements */
+    z-index: 2;
+    /* margin-right: 30px;
+    margin-left: 30px; */
+     /* position: sticky;
+    top:25px; */
+}
