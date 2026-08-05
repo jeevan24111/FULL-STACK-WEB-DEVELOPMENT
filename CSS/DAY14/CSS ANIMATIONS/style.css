@@ -1,0 +1,80 @@
+.anim{
+    height: 250px;
+    width: 210px;
+    background-color: rgb(126, 126, 239);
+    animation-name: spin,rotate;
+    animation-timing-function:cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    animation-delay: 0.2s;
+    
+}
+
+@keyframes spin {
+   0%{
+    transform: translateX(-250px);
+   }
+   25%{
+    transform: translateX(250px);
+   }
+   50%{
+    transform: translateX(500px);
+   }
+   70%{
+    transform: translateX(750px);
+   }
+   100%{
+    transform: translateX(1200px);
+   }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(-23deg);
+        background-color: aquamarine;
+    }
+     25%{
+    transform: rotate(23deg);
+    background-color: red;
+   }
+   50%{
+    transform: translateX(60deg);
+    background-color: blueviolet;
+   }
+   70%{
+    transform: translateX(-60deg);
+    background-color: chocolate;
+   }
+   100%{
+    transform: translateX(0deg);
+    background-color: blue;
+   }
+}
+.bod{
+    height: 800px;
+    width:1200px;
+    background-color: black;
+    animation-name: background;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes background{
+     0%{
+    background-color: rgb(250, 146, 146);
+   }
+   25%{
+     background-color: rgb(204, 224, 94);
+   }
+   50%{
+    transform: translateX(500px);
+   }
+   70%{
+    transform: translateX(750px);
+   }
+   100%{
+    transform: translateX(1200px);
+   }
+}
