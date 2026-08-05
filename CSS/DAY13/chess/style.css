@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.chess{
+    display:grid;
+    background-color: gray;
+    height:700px;
+    width:700px;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
