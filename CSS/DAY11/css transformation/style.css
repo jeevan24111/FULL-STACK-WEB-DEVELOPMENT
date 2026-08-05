@@ -1,0 +1,44 @@
+.box{
+    /* css transforms  2-d*/
+     height: 200px;
+    width: 500px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /* transform: scale(2); */
+    /* transform: rotate(250deg); */
+    /* transform: rotate(-60deg);   */
+    /* transform: rotate(250deg); */
+    /* transform: rotate(250deg); */
+
+    /* transform: translate(1250px); */
+    /* transform: translate(50px); */
+    /* transform: translate(1250px); */
+
+    /* transform: skew(50deg);
+    transform: skew(60deg); */
+    /* transform: skew(-1200deg); */
+    /* transform: skew(120deg); */
+
+    /* 3d transforamtion */
+
+
+    /* transform: translateX(34px); */
+    /* transform: translateY(34px); */
+    /* transform: translateZ(34px); */
+    /* transform: translate3d(20px,30px,45px); */
+
+    /* transform: scale3d(1,0.2,2); */
+
+    /* transform: skewX(23deg); */
+    /* transform: skewY(23deg); */
+
+
+    /* transform: rotate3d(23deg,34deg,22deg); */
+    /* transform: rotateY(34deg); */
+
+    /* transform: matrix(); */
+    
+}
