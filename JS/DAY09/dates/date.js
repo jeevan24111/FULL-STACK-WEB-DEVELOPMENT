@@ -66,3 +66,74 @@ const sec=Math.floor(date3/(1000)%60);
 
 console.log("OlympicsIN\n Days: ${days} Hours: ${hours} Min: ${min} second ${sec}" );
 
+//practice
+
+const time=new Date();
+console.log(time)
+console.log(time.toString())
+console.log(time.toISOString())
+console.log(time.toDateString())
+console.log( typeof time)
+
+//originally all are in miliseconds and that is converted into time
+
+/*  calculated from 1970 JAN 1*/
+const b1=new Date(2000);
+console.log(b1)
+
+//1970-01-01T00:00:02.000Z
+
+console.log(time.getDate());
+console.log(time.getDay());
+console.log(time.getMonth());
+
+//month and day are in o based 
+
+console.log(time.getMinutes());
+console.log(time.getTime());
+
+const n2=Date.now();
+console.log(n2);
+
+
+const d=new Date("2002-03-26");
+const d1=new Date("2002-03-22T10:10:12");  //T->Time is starting from heree
+console.log(d);
+console.log(d1);
+
+const d3=new Date(2022,23,4);
+const d4=new Date(2022,4,23,10,12,12,231);
+
+//year/,month,date,hour,min,sec,milisecond
+console.log(d3);
+console.log(d4);
+
+
+const d5=new Date();
+d5 .setDate(23);
+d5 .setFullYear(2027)
+d5 .setHours(5);
+
+console.log(d5 )
+
+console.log(d5>d4);
+console.log(d5-d4);
+console.log(d5+d4);
+console.log(d5<d4);
+
+
+//COunt donw timer
+
+const day=new Date();
+const day2=new Date(2028,6,23,12,0,0);
+const newday=day2-day;
+console.log(newday)
+// gives milisec->i want ot covert iinto proper time
+
+const dyas=Math.floor(newday/(1000*60*60*24));
+const hours=Math.floor(newday/(1000*60*60)%24);
+const min=Math.floor(newday/(1000*60)%60);
+const sec=Math.floor(newday/(1000)%60);
+
+
+console.log(`olympic countdonw : DAYS :${dyas}  : Hours: ${hours} : Min:${min} :sec :${sec}`);
