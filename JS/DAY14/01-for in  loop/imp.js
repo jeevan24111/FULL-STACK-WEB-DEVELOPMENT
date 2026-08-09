@@ -1,6 +1,6 @@
-//writable 
 
 
+//how you can set or get properties of //writable enumerable: configurable]
 
 let obj={};
 
