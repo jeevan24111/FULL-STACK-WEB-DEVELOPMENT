@@ -1,6 +1,7 @@
 //for in loop is not used for array
 
 //why
+        //  array is on object
 
 let arr=[1,2,3,4]
 arr.name="abc";
@@ -25,7 +26,6 @@ for(let key in arr){
         use basic loop for array not for in loop
         */
 }
-//array is on object
 
 
 
