@@ -36,3 +36,62 @@ document.getElementsByTagName('li').length*/
 // 'Hello Coder Army'
 // document.getEtementById( ' first' ).innerTex
 // 'Hetto Coder'
+
+
+
+let li2=document.querySelectorAll('.when1');
+li2.forEach(num=>num.style.backgroundColor="red");
+li2.forEach(num=>num.style.backgroundColor="green");
+
+//nodelis to array
+Array.from(li2);
+
+
+let li2=document.querySelector('.when1');
+li[0].style.backgroundColor="red"
+
+
+//by tage name
+let tag=document.getElementsByTagName('h1');
+console.log(tag);
+
+let tag1=document.getElementsByTagName('li');
+console.log(tag1);
+console.log(tag1[0].innertext);
+
+Array.from(tag1)
+
+
+//css query selector as css
+let li2=document.querySelector('ul li');
+console.log(li2);
+
+//we can iterate over html collection by foreach ,for of and simple for loop
+//get parent
+let li2=document.querySelector('ul li');
+console.log(li2.parentElement)
+console.log(li2.parentNode)
+
+//parenet and child
+let li2=document.querySelector('ul');
+console.log(li2.childNodes);
+
+//nnode elements gives text and li also
+
+console.log(li2.children);
+//gives html collection and only chuild nno text 
+
+console.log(li2.lastChild);  //last child
+
+undefined
+console.log(li2.firstChild)
+
+//sibling
+console.log(li2.nextElementSibling)
+console.log(li2.nextSibling)
+
+//diff b/w innnerHTML and InnerText and textcontent
+
+///innertHTML give full html all
+// textContent=>which is displayed none it is also showing
+// textContent gives what is present thats much only

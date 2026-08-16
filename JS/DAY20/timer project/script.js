@@ -8,3 +8,6 @@ setInterval(() => {
 time.innerHTML=timings.toUTCString();
 // time.innerHTML=timings.toLocaleTimeString();
 }, 1000);
+
+
+
