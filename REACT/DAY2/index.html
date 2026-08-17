@@ -6,7 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    
+      <div id="header"></div>
 </body>
-<script type="module" src="app.js"></script>
+
+<!-- <script crossorigin src="https://unpkq.com/react@18/umd/react.development.js"></script> -->
+<!-- <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<!-- why react and react dom are seperated in this package -->
+
+<!-- coz react is also used in mobile dev and index.html is not present in app dev so combing both is not a goood idea thats why
+   react is enough and for app dev for that reason both are seperated
+
+
+ -->
+<script type="module" src="./app.js"></script>
 </html>
