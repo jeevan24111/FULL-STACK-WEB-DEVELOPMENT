@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const ele1=React.createElement("h1",{},"hello world");
+const ele1=React.createElement("h1",{id:"first",className:"rahul"},"hello world");
 
 const ele2=<h1>hello coder army</h1>
 const root=ReactDOM.createRoot(document.getElementById('hello'));

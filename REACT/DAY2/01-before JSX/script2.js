@@ -24,8 +24,18 @@ let root=ReactDOM.createRoot(document.getElementById('header'));
 //what is CDn
 
 /*  CDN->content delivery network  */
-
+ 
 
 /*main imfo like ->likes,view and commnets are stored in Server and they are sent from CDN
 
 // and CDN HAVE photo and videos static info is stored in */
+
+root.render(ele);
+
+const ele5=React.createElement("h3",{id:"sec",className:"sec"},"hello");
+root.render(ele5);
+root.render(ele);
+
+
+const div1=React.createElement('div',{},[ele,ele5]);
+root.render(div1);
