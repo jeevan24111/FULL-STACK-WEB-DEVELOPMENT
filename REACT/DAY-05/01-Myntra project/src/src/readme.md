@@ -16,4 +16,4 @@ where we calling it also we have to import it right
 so for that u just need to give 
 
 ->import component-name and from "file path of importing component we it is present"
-4.why react->
+4.why react->coz it does all the all dom manipulation manually and it is easy 
