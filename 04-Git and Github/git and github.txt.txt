@@ -1,0 +1,92 @@
+Core Setup & Initialization
+git --version:
+
+Explanation: Checks if Git is installed on your system and displays the version number.
+
+git config --global user.name "Your Name":
+
+Explanation: Sets your name globally, which will be attached to your commits.
+
+git config --global user.email "your.email@example.com":
+
+Explanation: Sets your email address globally, which is also attached to your commits.
+
+git init:
+
+Explanation: Initializes a new Git repository in the current directory, creating a hidden .git folder to start version controlling your project.
+
+Basic Local Workflow
+git status:
+
+Explanation: Shows the current state of your working directory and staging area. It displays which changes are staged, which are not, and which files aren't being tracked.
+
+git add <file> or git add .:
+
+Explanation: Adds a specific file or all changes in the current directory (.) to the staging area, preparing them for the next commit. (This command is covered in the "Basic Commands" section).
+
+git commit -m "Your commit message":
+
+Explanation: Takes all changes in the staging area and saves them as a new, permanent snapshot (commit) in the project's history with a descriptive message.
+
+git log:
+
+Explanation: Displays a detailed history of all commits made to the repository, showing the author, date, and commit message for each.
+
+Undoing Changes
+git reset:
+
+Explanation: A powerful command used to undo changes. It can move the current branch tip backward, potentially discarding commits, and can also unstage files.
+
+git revert:
+
+Explanation: Creates a new commit that undoes the changes from a previous commit. It's a safer way to undo changes than reset because it doesn't rewrite history.
+
+Branching & Merging
+git branch:
+
+Explanation: Lists all branches in your repository. With an argument (git branch <branch-name>), it creates a new branch.
+
+git checkout <branch-name> or git switch <branch-name>:
+
+Explanation: Switches your active working context to a different branch. (The tutorial uses checkout, which is the classic command).
+
+git merge <branch-name>:
+
+Explanation: Takes the changes from the specified branch and integrates them into your current branch. This is how you combine work from different lines of development.
+
+git cherry-pick <commit-hash>:
+
+Explanation: Allows you to apply the changes from one specific commit (identified by its hash) into your current branch, without merging the entire branch.
+
+Working with Remote Repositories (GitHub/GitLab)
+git remote add origin <repository-url>:
+
+Explanation: Creates a connection between your local repository and a remote one (like on GitHub or GitLab), naming it "origin".
+
+git push -u origin <branch-name>:
+
+Explanation: Uploads your local commits from a specific branch to the remote repository. The -u flag sets the upstream branch for future pushes.
+
+git clone <repository-url>:
+
+Explanation: Creates a complete local copy of a remote repository on your computer, including its entire history.
+
+git pull:
+
+Explanation: Fetches the latest changes from the remote repository and immediately merges them into your current local branch.
+
+git fetch:
+
+Explanation: Downloads the latest changes (commits, branches) from the remote repository but does not merge them into your current working branch, allowing you to review them first.
+
+Advanced & Utility Commands
+git stash:
+
+Explanation: Temporarily saves (or "stashes") your uncommitted changes, cleaning your working directory so you can switch branches or work on something else. You can re-apply the stashed changes later.
+
+.gitignore (file):
+
+Explanation: A special file where you list patterns for files and folders (e.g., node_modules/, *.log) that Git should completely ignore and not track.
+
+This list covers all the major commands highlighted in the video's chapters. For a step-by-step guide with practical examples, watching the video from the start is highly recommended.
+
