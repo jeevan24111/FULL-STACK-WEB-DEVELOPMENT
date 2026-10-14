@@ -1,6 +1,27 @@
 {
   "dependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
-  }
+    "parcel": "^2.16.4",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "name": "react_arc_learning",
+  "version": "1.0.0",
+  "description": "learning react so that i cant forget this time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeevan24111/FULL-STACK-WEB-DEVELOPMENT.git"
+  },
+  "keywords": [
+    "webdev"
+  ],
+  "author": "Jeevan Bahaddur B K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeevan24111/FULL-STACK-WEB-DEVELOPMENT/issues"
+  },
+  "homepage": "https://github.com/jeevan24111/FULL-STACK-WEB-DEVELOPMENT#readme"
 }
