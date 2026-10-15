@@ -1,0 +1,40 @@
+body{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(245, 249, 235);
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.but{
+    border: none;
+    font-size: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+.search{
+    font-size: 20px;
+    height: 40px;
+    width: 700px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.but:hover{
+    background-color: #ccc;
+    text-decoration: underline;
+}
+/* 
+.section{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 10px;
+} */
