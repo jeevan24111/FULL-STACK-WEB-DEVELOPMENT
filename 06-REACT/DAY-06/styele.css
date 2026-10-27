@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;     
+    box-sizing: border-box;
+    background-color: #d78282;
+    display: flex;
+     align-items: center;
+    justify-content: center;    
+   
+}
+.counter{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
