@@ -1,0 +1,20 @@
+{
+  "name": "github-profile-viewr",
+  "version": "1.0.0",
+  "description": "github profile viewer project in react",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "project",
+    "in",
+    "react"
+  ],
+  "author": "jeevan bahaddur b k",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.16.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
